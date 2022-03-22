@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-sol-master.flake = false;
+  inputs.src-sol-master.ref   = "refs/heads/master";
   inputs.src-sol-master.owner = "davidgarland";
-  inputs.src-sol-master.ref   = "master";
   inputs.src-sol-master.repo  = "sol";
   inputs.src-sol-master.type  = "github";
   
